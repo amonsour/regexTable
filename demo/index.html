@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regular Expression - Table Converter</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+<div class="panel panel-default">
+ <div class="panel-heading">
+ 	<h3 class="panel-title">Regular Expression - Generator</h3>
+ </div>
+ <div class="panel-body">
+ <div id="errorReport"></div>
+            <form id="calcTable" role="form">
+                      
+                <label for="rowsNum"><span class="field-name">Number of rows</span> </label>
+				<select class="form-control" id="rowsNum">
+                        <option label="Select..." selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+					  
+					  <label for="colsNum"><span class="field-name">Number of columns</span></label>
+				<select class="form-control" id="colsNum">
+                        <option label="Select..." selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+						<option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+					  
+					  <details class="mrgn-bttm-md" id="xxx-desc" open><summary>Additional options</summary>
+
+<label for="emptyRow"><span class="field-name">Empty row</span></label>
+				<select class="form-control" id="emptyRow">
+                        <option label="Not available" selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                      </select>
+					  
+					  
+					  <p class="mrgn-tp-md"><strong>Fake Table Customization:</strong></p>
+					  <div class="row mrgn-bttm-md mrgn-tp-sm mrgn-lft-0 mrgn-rght-0">
+	<div class="mrgn-tp-xs col-xs-12">
+	<p class="text-center"><strong>Column Size</strong><br><span class="small"><strong>Default:</strong> 2 or 1 depending on the number of columns</span></p>
+	</div>	
+	<div class="clearfix"></div>
+	<div id="colChange"></div> 
+	
+	<p class="mrgn-tp-md">
+	<div class="checkbox"><label><input type="checkbox" id="lastCheckbox" value="option1" /> Text-right on last column</label>
+	</div>
+	<div class="checkbox">
+	<label><input type="checkbox" id="breakCheckbox" value="option1" /> Replace capture groups ($1, $2, etc.) with non-breaking spaces<br /><strong>Find/Replace will not work (for design purposes only)</strong></label>
+  </div>
+					  
+</div>
+
+</details>
+
+					  
+					  <button type="submit" class="btn btn-default mrgn-tp-md">Generate</button>
+					  </form>
+					  <p class="mrgn-tp-md"><strong>Find:</strong></p>
+					  <div class="well"> <code class="find">
+                    <span class="lineFind"></span></code>
+                  </div>
+				  <p><strong>Replace:</strong></p>
+					  <div class="well"> <code> 
+                    <span class="lineReplace"></span></code>
+                  </div>
+ 
+ </div>
+ </div>
+
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./regex.js"></script>
+
+
+</html>
