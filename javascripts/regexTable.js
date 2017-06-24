@@ -115,8 +115,8 @@ $(document).ready(function() {
 				}
 				
 				var final = repBeg + rTemp + repEnd;
-				final = final.replace(/\</g,"&lt;").replace(/\>/g,"&gt;");
-				$replace.empty().append(final.replace(/\n/g, '<br />'));
+				final = final.replace(/\</g,"&lt;").replace(/\>/g,"&gt;").replace(/\n/g, '<br />');
+				$replace.empty().append(final);
 			}
 			else {
 				$find.empty();
