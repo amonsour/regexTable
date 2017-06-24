@@ -1,10 +1,10 @@
 # regexTable
 This is a generator which converts a formula/table to a false table (using grids) using regular expressions.
 
-## Motivation
+### Motivation
 While changing tables to false tables for each page out of several thousand pages, I knew there would be a quicker way to go about doing this. That's what I used global regular expressions, but I would have to add another column, or row for each depending on the length of the formula table, and it's very tedious if you've ever done it (which is probably why you are here!). That's when I thought a generator would be best, and this tool came alive.
 
-## Values
+### Values
 `Number of rows` : Currently, you can set up to 12 rows that your table may have
 
 `Number of columna` : There are 12 columns, for a 12 grid page.
@@ -19,4 +19,4 @@ While changing tables to false tables for each page out of several thousand page
 
 `Generate` : Click this button when done customizing your table.
 
-## Usage
+### Usage
