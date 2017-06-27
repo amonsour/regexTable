@@ -2,7 +2,7 @@
 This is a generator which converts a formula/table to a false table (using grids) using regular expressions.
 
 ### Motivation
-I had the dreaded task of changing formula/tables to false tables/grids for every page out of several hundred pages. I knew there would be a quicker way to go about doing this, and that's when I used global regular expressions to get the job done. It was difficult however, since the tables were varying columns/rows so I would have to add or remove a column/row making it quicker, but not quick enough. It was a very tedious job if you've ever done it (which is probably why you are here!). That's when I thought a generator would work best, and this tool came alive and decided to share it with the world while I was at it.
+I had the dreaded task of changing formula/tables to false tables/grids for every page out of several hundred pages. I knew there would be a quicker way to go about doing this, and that's when I used global regular expressions to get the job done. It was a quicker way, however since the tables were of varying columns/rows, I would have to add or remove a column/row, so that approach was still time consuming. It was a very tedious job if you've ever done it (which is probably why you are here!). That's when I thought a generator would work best, and this tool came alive and decided to share it with the world while I was at it.
 
 ### Pre-Software
 1. Your favourite IDE that supports Regular Expresions, i.e. Sublime, Dreamweaver, Notepad++. This guide will be using Dreamweaver in the instructions.
