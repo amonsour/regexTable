@@ -5,7 +5,7 @@ This is a generator which converts a formula/table to a false table (using grids
 I had the dreaded task of changing formula/tables to false tables/grids for every page out of several thousand pages. I knew there would be a quicker way to go about doing this, and that's when I used global regular expressions to get the job done. It was difficult however, since the tables were varying columns/rows so I would have to add or remove a column/row making it quicker, but not quick enough. It was a very tedious job if you've ever done it (which is probably why you are here!). That's when I thought a generator would work best, and this tool came alive and decided to share it with the world while I was at it.
 
 ### Pre-Software
-1. Your favourite IDE that supports Regular Expresions (Sublime, Dreamweaver, Notepad++) (This guide will be using Dreamweaver in the instructions).
+1. Your favourite IDE that supports Regular Expresions, i.e. Sublime, Dreamweaver, Notepad++. This guide will be using Dreamweaver in the instructions.
 
 ### Step-by-step
 1. Read the value guide below if you would like to use the more advanced tools, if not, skip to Step 2.
@@ -27,7 +27,7 @@ I had the dreaded task of changing formula/tables to false tables/grids for ever
 7. Click the button `Replace`.
 8. See your data appear with the regular expression generator.
 
-`Note` : This website is not liable for any data you may lose or corrupt during the process. Please backup your website prior to using this tool, as if you do a global replace and something goes wrong, you cannot undo the changes.
+**Note** : This website is not liable for any data you may lose or corrupt during the process. Please backup your website prior to using this tool, as if you do a global replace and something goes wrong, you cannot undo the changes.
 
 ### Troubleshooting
 - If you are clicking `Find next` and it is not finding the table with the `exact` details, there may be a `break line` at the end of your `Find` search.
