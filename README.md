@@ -27,7 +27,7 @@ I had the dreaded task of changing formula/tables to false tables/grids for ever
 7. Click the button `Replace`.
 8. See your data appear with the regular expression generator.
 
-**Note** : This website is not liable for any data you may lose or corrupt during the process. Please backup your website prior to using this tool, as if you do a global replace and something goes wrong, you cannot undo the changes.
+**Note** : This website is not liable for any data you may lose or corrupt during the process. Please backup your website prior to using this tool, as if you do a global replace and something goes wrong, you cannot undo the changes. **You have been warned!**
 
 ### Troubleshooting
 - If you are clicking `Find next` and it is not finding the table with the `exact` details, there may be a `break line` at the end of your `Find` search.
