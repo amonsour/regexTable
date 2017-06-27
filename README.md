@@ -9,7 +9,7 @@ I had the dreaded task of changing formula/tables to false tables/grids for ever
 
 ### Step-by-step
 1. Read the value guide below if you would like to use the more advanced tools, if not, skip to Step 2.
-	- `Number of rows` : This dropdown is set up to 12 rows (didn't have a reason to increase the number).
+  - `Number of rows` : This dropdown is set up to 12 rows (didn't have a reason to increase the number).
 	- `Number of columns` : This dropdown has up to 12 columns, for a 12 grid page.
 	- `Empty row` : If a table row is empty, this is where to place it the row number, so the regular expression knows to skip it and to count it as a blank row.
    - `Column size` : This is where you would enter in the set columns to the grid. See below for the default if the column size is:
